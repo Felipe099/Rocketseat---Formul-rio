@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>MENTORIA</h1>
+                <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+            </header>
+            <form>
+                <fieldset>
+                    <div class="inform">
+                        <legend>INFORMAÇÕES PESSOAIS</legend>
+
+                        <div class="form-group">
+                            <div class="wrapper">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" />
+                            </div>
+                            <div class="wrapper">
+                                <label for="lastName">Sobrenome</label>
+                                <input type="text" id="lastName" />
+                            </div>
+                        </div>
+                        <div class="wrapper-second">
+                            <label for="Email"
+                                >Email
+                                <span>(digite um email válido)</span></label
+                            >
+                            <input type="email" id="email" />
+                        </div>
+
+                        <div class="wrapper-second">
+                            <label for="password"
+                                >Senha
+                                <span>(mínimo de 6 caracteres)</span></label
+                            >
+                            <input type="password" id="password" />
+                        </div>
+                    </div>
+                    <div>
+                        <legend>INFORMAÇÕES MENTOR</legend>
+                        <div class="form-mentor">
+                            
+                        <div class="wrapper-second">
+                            <label for="teacher"
+                                >Nome do seu mentor
+                                <span>(só o primeiro nome)</span></label
+                            >
+                            <input type="text" id="teacher" />
+                        </div>
+                    </div>
+                    
+                    <div class="caixa">
+                        <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+                        <div class="form-mentor">
+                            <h2>Primeira mentoria</h2>
+                                <div class="time">
+                                    <div class="box">
+                                        <label for="date">Data <span>(DD/MM/AAAA)</span> </label>
+                                        <input type="date" id="date">
+                                    </div>
+                                    <div class="box">
+                                        <label for="firstHour">Das</label>
+                                        <input type="time" id="firstHour">
+                                    </div>
+                                    <div class="box">
+                                        <label for="LastHour">Até</label>
+                                        <input type="time" id="LastHour">
+                                    </div>
+
+                                </div>
+                            <h2>Segunda mentoria</h2>
+                                <div class="time">
+                                    <div class="box">
+                                        <label for="date">Data <span>(DD/MM/AAAA)</span> </label>
+                                        <input type="date" id="date">
+                                    </div>
+                                    <div class="box">
+                                        <label for="firstHour">Das</label>
+                                        <input type="time" id="firstHour">
+                                    </div>
+                                    <div class="box">
+                                        <label for="LastHour">Até</label>
+                                        <input type="time" id="LastHour">
+                                    </div>
+
+                                </div>
+
+                        </div>
+                            
+                                                          
+                                
+                    </div>
+                </fieldset>
+                
+            </form>
+            <footer>
+                <button type="submit">Salvar</button>
+            </footer>
+        </div>
+    </body>
+</html>
