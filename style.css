@@ -53,14 +53,7 @@ header p {
     line-height: 30px;
 }
 
-fieldset {
-    border: none;
-}
-legend {
-    font-size: 24px;
-    line-height: 34px;
-    padding-bottom: 16px;
-}
+
 
 form {
     color: #535971;
@@ -71,6 +64,20 @@ form {
     padding: 64px;
 
     border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 16px;
+}
+
+input {
+    padding: 10px;
 }
 
 .form-group {
@@ -98,6 +105,7 @@ form {
 
     border: 1px solid #e6e6f0;
     border-radius: 8px;
+
 }
 
 .wrapper-second input {
